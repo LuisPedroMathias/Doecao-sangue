@@ -1,10 +1,79 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Doação de Sangue!</title>
 </head>
+
 <body>
-    
+      <div class="formulario">
+        <form>
+
+            <div class="perguntas">
+                <center>
+                    <h1>Formulário para Doação de Sangue</h1>
+                </center>
+                <div>
+                    <label for="nome">Nome completo:</label>
+                    <input type="text" id="nome">
+                </div>
+                <br>
+                <div>
+                    <label for="e-mail">e-mail:</label>
+                    <input type="text" id="e-mail">
+                </div>
+                <br>
+                <div>
+                    <label for="idade">Idade:</label>
+                    <input type="number" id="idade">
+                </div>
+                <br>
+                <div>
+                    <label for="peso">Peso:</label>
+                    <input type="number" id="peso">
+                </div>
+                <br>
+                <div>
+                    <label for="Tipo">Tipo sanguíneo:</label>
+                    <select name="text" id="Tipo">
+                        <option value="text">A+</option>
+                        <option value="text">A-</option>
+                        <option value="text">B+</option>
+                        <option value="text">B-</option>
+                        <option value="text">AB+</option>
+                        <option value="text">AB-</option>
+                        <option value="text">O+</option>
+                        <option value="text">O-</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="Telefone">Telefone:</label>
+                    <input type="tel" id="Telefone">
+                </div>
+                <br>
+                <div>
+                    <label for="cidade">Cidade:</label>
+                    <input type="tel" id="cidade">
+                </div>
+                <br>
+                <div>
+                    <label for="estado">Telefone:</label>
+                    <input type="tel" id="estado">
+                </div>
+                <br>
+                <label for="termo">Aceite o termo de responsabilidade:</label>
+                <input type="checkbox" id="termo">
+                <button type="submit" onclick="enviar()">Enviar</button>
+            </div>
+
+
+        </form>
+    </div>
+
 </body>
+
 </html>
