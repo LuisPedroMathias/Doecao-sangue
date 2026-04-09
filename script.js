@@ -21,7 +21,7 @@ function enviar() {
         return false;
     }
 
-    if (email.indexOf("@") == -1) {
+    if (!email.includes("@")) {
         alert("Email inválido");
         return false;
     }
