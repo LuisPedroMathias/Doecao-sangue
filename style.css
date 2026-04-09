@@ -47,10 +47,9 @@ button {
     border-radius: 5px;
 }
 .img {
-  background-image: url(assets/download.jpg);
-  width: 50%;
-  height: 500px;        /* aumente a altura */
+  background-image: url(assets/images.jpg);
+  width: 100%;
   background-repeat: no-repeat;
+  background-size: 90%;
   background-position: center;
-  
 }
